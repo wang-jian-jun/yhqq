@@ -1,0 +1,145 @@
+/* ------------------------头部------------------------ */
+.header{
+    height:135px ;
+    background: red;
+}
+.header1{
+    height: 33px;
+    background: yellow;
+}
+.header1-right{
+    padding-right: 30px;
+}
+.header1 p{
+    line-height: 33px;
+}
+.header1-right li{
+    float: left;
+    margin-left: 20px;
+}
+.header1-right li a{
+    height: 33px;
+    line-height: 33px;
+}
+
+/* .header2-1 > div{
+    float: left;
+} */
+.header2-1{
+    width: 400px;
+    height: 80px;
+    background: black;
+}
+.header2-2{
+    width: 750px;
+    height: 80px;
+    background: aqua;
+}
+/* -------------------导航栏--------------------- */
+.link{
+    height: 38px;
+    width: 100%;
+    /* background: pink; */
+}
+.link1{
+    background: yellow;
+}
+.link1 li{
+    float: left;
+    padding:0 60px 0 60px;
+    /* background: darkgoldenrod; */
+}
+.link1 li:nth-child(1){
+    padding:0 80px 0 80px;
+}
+.link1 li:nth-child(6){
+    margin-right: 0;
+}
+.link1 li:hover{
+    background: gold;
+}
+.link1 li a{
+    line-height: 38px;
+    color: black;
+}
+/* ---------------------广告栏-------------------------- */
+.banner{
+    height: 300px;
+    width: 100%;
+    /* background: aqua; */
+}
+.banner1{
+    height: 300px;
+    background: blue;
+}
+
+.banner1-1{
+    height: 300px;
+    width: 230px;
+    background: black;
+}
+/* ------------------轮播图--------------------- */
+.banner1-2{
+    height: 300px;
+    width: 720px;
+    background: red;
+}
+.banner1-2-1{
+    height: 300px;
+    width: 720px;
+    position: relative;
+    overflow: hidden;
+}
+.banner_1{
+    width: 10000px;
+    height: 300px;
+    position: absolute;
+}
+.banner_1 li{
+    float: left;
+}
+.banner_2{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+.banner_2 li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: black;
+    color: bisque;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+}
+.left{
+    position: absolute;
+    top: 130px;
+    right: 20px
+}
+.banner_2 .curren{
+    background: aqua;
+}
+/* -------------------轮播图结束-------------------------- */
+.banner1-3{
+    height: 300px;
+    width: 250px;
+    background: pink;
+}
+/* ---------------------------------- */
+.xx{
+    height: 47px;
+    background: yellow;
+}
+.xx p{
+    line-height: 47px;
+    text-align: center;
+}

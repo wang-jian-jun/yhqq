@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="icon" href="../images/yy.ico">
+</head>
+
+<body>
+    <div class="register">
+        <div class="container">
+            <div class="header"></div>
+            <div class="center">
+                <div class="center-1">
+                    <p>注册领199元大礼包</p>
+                    <form action="../php/register.php" method="post" class="form">
+                        <div>
+                            <span>手机号码</span>
+                            <input type="text" placeholder="请输入手机号" id="username" name="username" data-error="请输入正确的手机号">
+                        </div>
+                        <span class="span"></span>
+                        <div>
+                            <span>手机验证码</span>
+                            <input type="text" placeholder="请输入验证码" id="verification" name="verification" data-error="验证码错误133">
+                            <s class="tishi fr">获取短信验证码</s>
+                        </div>
+                        <span class="span"></span>
+                        <div>
+                            <span>设置密码</span>
+                            <input type="text" placeholder="设置密码" id="password" name="password" name="password" data-error="请输入符合要求的密码密码">
+                        </div>
+                        <span class="span"></span>
+                        <button id="btn" type="submit">提交注册</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="footer"></div>
+
+        </div>
+        <!-- <div class="banner"></div> -->
+
+    </div>
+    <div class="banner">
+        <div class="banner-header">
+            <h2 class="fl">注册协议</h2>
+            <span class="fr">删除</span>
+            <!-- <button class="fr">删除</button> -->
+        </div>
+        <div class="banner-center">
+            <div class="banner-center1">
+                <p>[审慎阅读]你在申请注册流程点击同意之前，应当认真阅读以下协议，请你务必审慎阅读、充分理解协议相关条款内容，其中包括：</p>
+                <h3>1、与你约定免除或限制责任的条款</h3>
+                <h3>1、与你约定免除或限制责任的条款</h3>
+                <h3>1、与你约定免除或限制责任的条款</h3>
+            </div>
+            <div class="banner-center2">
+                <p>如你对协议有任何疑问，可向平台客服咨询</p>
+                <p>[特别提示]当你按照注册页面提示填写信息、阅读并同意协议且完全全部注册程序后，既表示你乙充分阅读、理解并接受协议的全部内容</p>
+
+            </div>
+            <div class="banner-center3">
+                <h3>阅读协议的过程，如果你不同意相关协议或其中任何条款约定，你应立即停止注册程序</h3>
+            </div>
+        </div>
+        <div class="banner-footer">
+            <button class="btn">同意并继续</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="../js/ajax0.0.1.js"></script>
+<script src="../js/public.js"></script>
+<script src="../js/register.js"></script>
+<script>
+    click.init();
+    check.init();
+    // (function () {
+    //     var shanchu = document.querySelector('.banner-header .fr');
+    //     var btn = document.querySelector('.banner-footer .btn');
+    //     var banner = document.querySelector('.banner');
+    //     var tishi = document.querySelector('.tishi');
+    //     var num = 0;
+    //     console.log(tishi);
+    //     shanchu.onclick = function () {
+    //         location.href = "../index.html";
+    //     }
+    //     btn.onclick = function () {
+    //         banner.style.display = "none";
+    //     }
+    //     tishi.onclick = function () {
+    //         num = getYZM(4);
+    //         console.log(num);
+    //         this.previousElementSibling.value = num;
+    //     }
+    //     return false;
+    // }())
+</script>
+<script src="../html/login.html"></script>

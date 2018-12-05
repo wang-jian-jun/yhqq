@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+.register{
+    position: relative;
+}
+.container{
+    position: relative;
+}
+/* -------------------------- */
+.header{
+    height: 88px;
+    background: red;
+}
+/* ------------中间部分-------------- */
+.center{
+    height: 445px;
+    /* background: tan; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    /* align-content: center; */
+}
+.center-1{
+    height: 380px;
+    width: 380px;
+    margin-top:50px;
+    /* border: 2px solid black; */
+}
+.center-1 p{
+    /* margin-left: -178px; */
+    height: 40px;
+    line-height: 40px
+}
+.form{
+    height: 295px;
+    width: 100%;
+}
+.form div{
+    height: 38px;
+    width: 378px;
+    /* background: white; */
+    line-height: 38px;
+    padding-left: 20px;
+    border: 1px solid black
+}
+.form input{
+    margin-left: 10px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 15px;
+    border: 1px solid white;
+    /* background: yellow; */
+    border-bottom: 1px solid black;
+}
+#verification{
+    width: 120px;
+}
+.span{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    /* background: aqua; */
+}
+.tishi{
+    font-size: 14px;
+    height: 36px;
+    line-height: 34px;
+    background: aqua;
+    display: inline-block;
+    cursor: pointer;
+}
+.center-1 #btn{
+    display: block;
+    width: 90px;
+    height: 50px;
+    background: black;
+    color: aliceblue;
+    margin:26px 0 0 140px;
+}
+/* ------------底部部分-------------- */
+.footer{
+    height: 160px;
+    background: aqua
+}
+/* -------------------------- */
+.banner{
+    background: white;
+    /* display: none; */
+    padding: 0 20px;
+    position: fixed;
+    width: 600px;
+    height: 420px;
+    /* background: hotpink; */
+    top: 100px;
+    left: 470px;
+    border: 2px solid black;
+}
+.banner-header{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+}
+.banner-header .fr{
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer
+}
+.banner-footer{
+    height: 50px;
+    text-align: center;
+}
+.banner-footer button{
+    height: 30px;
+    line-height: 30px;
+}
+/* -------------------------- */
