@@ -45,7 +45,7 @@ var lunbotu = (function () {
             }
         },
         showImg(index) {
-            console.log(index);
+//          console.log(index);
             if (index > 4) {
                 index = 0;
                 this.zidong = 0;
@@ -62,7 +62,7 @@ var lunbotu = (function () {
             }
             _this.qqLi[index].className = 'curren';
             var l = -(index + 1) * 720;
-            console.log(l)
+//          console.log(l)
             _this.ul.style.left = l + 'px';
         },
         autoplay(index = 0) {

@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <div id="yhqq">
         <div class="header container">
             <div class="header1">
@@ -29,8 +30,14 @@
                 </ul>
             </div>
             <div class="header2">
-                <div class="header2-1 fl"></div>
-                <div class="header2-2 fr"></div>
+                <div class="header2-1 fl">
+                    <!-- logo部分 -->
+                    <h1 class="header2-1-1"></h1>
+                </div>
+                <!-- logo左边部分 -->
+                <div class="header2-2 fr">
+
+                </div>
                 <!-- <div class="header2-3"></div> -->
             </div>
         </div>
@@ -117,6 +124,72 @@
         </div>
         <div class="xx container">
             <p>小编说：这些年，我们每天坚持为大家更新超值宝贝... 感谢您多年来的支持！无论再苦再累，我们都会坚持下去！因为您的信任，我们会带着这份责任，做到极致... </p>
+        </div>
+
+        <div class="neirong container clear">
+            <ul class="neirong1">
+                <!--<li>
+                    <div class="neirong1-1 clear">
+                        <img src="images/o1cn011hazpdqwegyqzer_!!2259510775-0-item_pic.jpg_310x310.jpg" />
+                    </div>
+                    <div class="neirong1-2 clear">
+                        <b class="fl">￥14.9</b>
+                    </div>
+                    <p class="neirong1-3">[舒心緣]空調杯子棉被保暖春秋冬被</p>
+                    <div class="neirong1-4">
+                        <a href="">查看詳情</a>
+                    </div>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>-->
+
+            </ul>
+            <script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+            <script type="text/javascript">
+                var shop = (function () {
+                    return {
+                        init() {
+                            this.event();
+                            this.insetData();
+                        },
+                        event() {
+
+                        },
+                        insetData() {
+                            $.getJSON("json/shopli.json", function (res) {
+                                //                  var res = JSON.parse(res);
+                                // var a = JSON.parse(res)
+                                // console.log(a);
+                                if (res.code = "0") {
+                                    var str = '';
+                                    var data = res.data;
+                                    for (let i = 0; i < data.length; i++) {
+                                        str += `
+                                            <li>
+                                                <div class="neirong1-1 clear">
+                                                    <img src="images/${data[i].src}" />
+                                                </div>
+                                                <div class="neirong1-2 clear">
+                                                    <b class="fl">${data[i].price}</b>
+                                                </div>
+                                                <p class="neirong1-3">${data[i].dir}</p>
+                                                <div class="neirong1-4">
+                                                    <a href="">查看詳情</a>
+                                                </div>
+                                            </li>
+                                        `;
+
+                                    }
+                                    $(".neirong1").html(str)
+                                }
+                            })
+                        }
+                    }
+                }())
+
+                shop.init()
+            </script>
         </div>
     </div>
 </body>
